@@ -16,6 +16,8 @@ header {
     height: 150px;
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 svg {
@@ -34,8 +36,18 @@ svg {
 
 .input-container {
     width: 100%;
-    max-width: 650px;
+    max-width: 600px;
     position: relative;
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+    box-sizing: border-box;
 }
 
 #submit-icon {
